@@ -1,0 +1,11 @@
+theia@theiadocker-fassane348:/home/project$ python3
+
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> from EmotionDetection import emotion_detector
+
+>>> emotion_detector("I hate working long heures")
+
+{'anger': 0.37216666, 'disgust': 0.070087425, 'fear': 0.037504416, 'joy': 0.008683847, 'sadness': 0.13993369, 'dominant_emotion': 'anger'}

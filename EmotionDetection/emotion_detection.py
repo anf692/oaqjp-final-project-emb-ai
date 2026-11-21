@@ -22,9 +22,9 @@ def emotion_detector(text_to_analyze):
     response = requests.post(
         url,
         headers=headers,
-        json=input_json
+        json=input_json,
+        timeout=30
     )
-
     result = response.json()
 
     emotions = result["emotionPredictions"][0]["emotion"]

@@ -1,0 +1,21 @@
+************* Module server
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:44:0: W0404: Reimport 'Flask' (imported line 2) (reimported)
+server.py:44:0: W0404: Reimport 'render_template' (imported line 2) (reimported)
+server.py:44:0: W0404: Reimport 'request' (imported line 2) (reimported)
+server.py:44:0: C0413: Import "from flask import Flask, render_template, request" should be placed at the top of the module (wrong-import-position)
+server.py:45:0: W0404: Reimport 'emotion_detector' (imported line 3) (reimported)
+server.py:45:0: C0413: Import "from EmotionDetection import emotion_detector" should be placed at the top of the module (wrong-import-position)
+server.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:51:0: E0102: function already defined line 9 (function-redefined)
+server.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:56:0: E0102: function already defined line 14 (function-redefined)
+server.py:44:0: C0411: third party import "flask.Flask" should be placed before first party import "EmotionDetection.emotion_detector"  (wrong-import-order)
+server.py:44:0: C0412: Imports from package flask are not grouped (ungrouped-imports)
+server.py:45:0: C0412: Imports from package EmotionDetection are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.68/10
+
